@@ -55,7 +55,7 @@ public class EchoNestTest implements ApplicationListener {
 	    ps = new PrintStream(baos);  
 		//
 		
-		echoNest = new EchoNestAPI("PQCOTT9Z5LTEYXMQW"); //load from file or something		
+		echoNest = new EchoNestAPI("MYAPIKEY"); //load from file or something		
 		ArtistParams p = new ArtistParams();
 		p.addName("Foo Fighters");
 		p.includeSongs();
